@@ -14,10 +14,10 @@
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
-    This is a <a href="https://jdbi.org/">JDBI</a> development tool.
-    When you use the <code style="color: #F75000">@UseClasspathSqlLocator</code> annotation in JDBI, the code and SQL need to be written separately, causing inconvenience in development.
+    <b>Jdbi SQL Jump</b> is a development tool for working with <a href="https://jdbi.org/">JDBI</a> development tool.
+    In typical JDBI usage with the <code style="color: #F75000">@UseClasspathSqlLocator</code> annotation, SQL queries are stored in external files. This separation between code and SQL often makes development and navigation less convenient.
     <br/><br/>
-    By using this plugin, it helps you quickly jump from code to the corresponding SQL file.
+    This plugin helps bridge that gap by enabling quick navigation from Java code to the corresponding SQL file, making your workflow smoother and more efficient.
     <br/><br/>
     There has two way to trigger a jump:
     <li>Select the corresponding code, then click on "Jdbi SQL Jump" from the right-click menu.</li>

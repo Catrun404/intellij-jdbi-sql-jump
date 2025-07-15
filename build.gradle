@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "com.pino"
-version = "1.1.5"
+version = "1.1.6"
 
 java {
     sourceCompatibility = JavaVersion.VERSION_17
@@ -18,7 +18,7 @@ repositories {
 // Configure Gradle IntelliJ Plugin
 // Read more: https://plugins.jetbrains.com/docs/intellij/tools-gradle-intellij-plugin.html
 intellij {
-    version = "2022.2.5"
+    version = "2023.2.5"
     type = "IU" // Target IDE Platform
     plugins = ['com.intellij.java']
 }
